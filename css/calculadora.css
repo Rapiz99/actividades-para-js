@@ -1,0 +1,80 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+h1{
+    color: white;
+    background-color: orange;
+    
+  border: 5px solid rgb(165, 157, 157);
+  border-radius: 9px;
+  width: 500px;
+  height: 40px;
+}
+ul li  {
+    list-style: none;
+    display: block;
+}
+
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+
+#calculadora{
+    background: rgb(235, 227, 227);
+    border: solid rgb(189, 182, 182);
+    border-radius: 9px;
+    width: 280px;
+    height: 400px;
+    text-align: center;
+    position: absolute;
+    margin-left: 38%;
+   
+}
+#Operaciones{
+    border: 5px solid rgb(165, 157, 157);
+    background-color: white;
+    border-radius: 9px;
+    width: 220px;
+    height: 50px;
+    position: relative;
+    margin-left: 7.5%;
+    text-align: center;
+    margin-top: 15px;
+    text-align-last:  right;
+    
+}
+
+.numero, .signo, .decimal, .igual{
+    margin: 2px;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    float: left;
+    overflow: hidden;   
+    border:  solid rgb(165, 157, 157);
+    margin-left: 6px;
+    width: 10px;
+    height: 10px;
+    position: initial;
+    margin-top: 2px; 
+    border-radius: 7px;
+    box-shadow: 3px 3px #c7c4c4;
+
+    
+}
+
+#borrar{
+    border: 3px solid rgb(165, 157, 157);
+    background-color: orange;
+    width: 68px;
+    height: 14px ;
+    margin-top: 90%;
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 5px;
+}
